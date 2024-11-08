@@ -26,23 +26,23 @@ class Var:
 
     # Telegram Credentials
 
-    API_ID = config("API_ID", default=6, cast=int)
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    API_ID = config("API_ID", "27692015")
+    API_HASH = config("API_HASH", "25278a8394b5914ee1b8d6a6c79d572d")
+    BOT_TOKEN = config("BOT_TOKEN", "7716433955:AAFyRm41MWU-K0MslxcRWvE5tOYFMCS3pO8")
     SESSION = config("SESSION", default=None)
 
     # Database Credentials
 
-    MONGO_SRV = config("MONGO_SRV", default=None)
+    MONGO_SRV = config("MONGO_SRV", "mongodb+srv://Premium:aloksingh@cluster0.4ykpo.mongodb.net/?retryWrites=true&w=majority")
 
     # Channels Ids
 
-    BACKUP_CHANNEL = config("BACKUP_CHANNEL", default=0, cast=int)
-    MAIN_CHANNEL = config("MAIN_CHANNEL", cast=int)
-    LOG_CHANNEL = config("LOG_CHANNEL", cast=int)
-    CLOUD_CHANNEL = config("CLOUD_CHANNEL", cast=int)
-    FORCESUB_CHANNEL = config("FORCESUB_CHANNEL", default=0, cast=int)
-    OWNER = config("OWNER", default=0, cast=int)
+    BACKUP_CHANNEL = config("BACKUP_CHANNEL", "-1002266633867")
+    MAIN_CHANNEL = config("MAIN_CHANNEL", "-1002329482262")
+    LOG_CHANNEL = config("LOG_CHANNEL", "-1002381050327")
+    CLOUD_CHANNEL = config("CLOUD_CHANNEL", "-1002482492010")
+    FORCESUB_CHANNEL = config("FORCESUB_CHANNEL", "0")
+    OWNER = config("OWNER", "7092511418")
 
     # Other Configs
 
